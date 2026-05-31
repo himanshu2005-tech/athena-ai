@@ -1,0 +1,10 @@
+2026-05-27 18:45:04,054 [INFO] USER    : Explain me the L'Hospital's rule with equations
+2026-05-27 18:45:04,054 [INFO] ATHENA  : Step 1: Determine if the limit is an indeterminate form.
+Let's consider the limit {eq}\frac{f(x)}{g(x)} {/eq}, where $f$ and $g$ are both continuous functions from $[a,b]$ to $\mathbb{R}$. Since $f$ and $g$ are differentiable on $(a,b)$, then they satisfy the following properties:
+
+1. Differentiability: $f'$ exists and is bounded on $(a,b)$.
+2. Continuity: $f$ and $g$ are continuous on $(a,b)$ and there exist constants $c_1$ and $c_2$, such that $|f'(x)| \leq c_1 |x|$ and $|g'(x)| \leq c_2 |x|$ for all $x \in (a,b)$.
+
+Thus, the limit is an indeterminate form of the type {eq}\frac{0}{0} {/eq} o
+2026-05-27 18:45:04,076 [INFO] SOURCES : ['https://byjus.com/maths/l-hospital-rule', 'https://study.com/learn/lesson/when-to-use-lhopitals-rule.html'] | WEB: True
+2026-05-27 18:45:04,076 [INFO] ------------------------------------------------------------

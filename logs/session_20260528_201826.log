@@ -1,0 +1,7 @@
+2026-05-28 20:19:47,502 [INFO] USER    : Explain the fundamental mathematical difference between L1 (Lasso) and L2 (Ridge) regularization. Provide the penalty term equations for both.
+2026-05-28 20:19:47,502 [INFO] ATHENA  : 
+1. L1 Regularization: L1 Regularization or Lasso Regression is a regularization technique used in Linear Regression to prevent overfitting by adding a penalty term to the loss function. The penalty term is proportional to the square of the magnitude of the coefficients (coefficient weights).
+
+2. L2 Regularization: L2 Regularization is also called L1 regularization but with an additional constraint where the sum of the coefficients must be equal to one. L2 Regularization is another way of regularization technique used in Linear Regression. In this case, the regularization is expressed as a wei
+2026-05-28 20:19:47,521 [INFO] SOURCES : ['https://www.geeksforgeeks.org/machine-learning/ridge-regression-vs-lasso-regression', 'https://codesignal.com/learn/courses/intro-to-model-optimization-in-machine-learning/lessons/regularization-techniques-in-machine-learning-enhancing-model-generalization', 'https://builtin.com/data-science/l2-regularization'] | WEB: True
+2026-05-28 20:19:47,521 [INFO] ------------------------------------------------------------

@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+
+# Models
+final_athena_model/
+final_model/
+final_tiny_model/
+
+# Checkpoints
+athena_checkpoints/
+tiny_llama_checkpoints/
+
+# Adapters
+athena_adapters/
+my_finetuned_adapters/
+tiny_finetuned_adapters/
+
+# Vector DB
+chroma_db/
+parent_docs.db.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# React
+athena/node_modules/
+athena/build/

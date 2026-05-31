@@ -1,0 +1,17 @@
+2026-05-28 20:24:15,120 [INFO] USER    : Write a standalone Python generator function that takes a large list of elements and yields them in randomized batches of size N. If the final batch doesn't have enough elements to fill size N, it should still yield the remaining elements as a smaller incomplete batch.
+2026-05-28 20:24:15,120 [INFO] ATHENA  : 
+To achieve this goal, you can utilize the built-in `range` method and the conditional `if` statement to create a generator function that generates elements from a given start index to the end index, where each element comes with its own randomized batch size. Here's how you can implement this using Python:
+
+```python
+def generate_random_batch(start, end):
+   for i in range(start, end):
+       yield i
+   
+   # Create an incomplete batch to account for remaining elements
+   if len(end - start) > 0:
+       yield *generate_random_batch(start + len(end) // 2, end)
+       
+# Examples
+print(list(gen
+2026-05-28 20:24:15,120 [INFO] SOURCES : [] | WEB: True
+2026-05-28 20:24:15,120 [INFO] ------------------------------------------------------------

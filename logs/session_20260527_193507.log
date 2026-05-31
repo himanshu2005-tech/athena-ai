@@ -1,0 +1,39 @@
+2026-05-27 19:35:32,694 [ERROR] Pipeline exception — query: Write a Python function using pandas and pytorch to load a data matrix from a text CSV named bank_loans.csv, convert it to float32 tensors, and initialize an SGD optimizer.
+Traceback (most recent call last):
+  File "D:\transformers\main_model.py", line 679, in main
+    result, sources, used_web = rag_pipeline(
+                                ^^^^^^^^^^^^^
+  File "D:\transformers\engine.py", line 858, in rag_pipeline
+    context, _, sources = retrieve_context(query, k=retrieval_k)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\transformers\engine.py", line 528, in retrieve_context
+    scores = reranker.predict(pairs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\transformers\.venv\Lib\site-packages\sentence_transformers\cross_encoder\CrossEncoder.py", line 310, in predict
+    if isinstance(sentences[0], str):  # Cast an individual sentence to a list with length 1
+                  ~~~~~~~~~^^^
+IndexError: list index out of range
+2026-05-27 19:35:50,152 [ERROR] Pipeline exception — query: Write a Python function using pandas and pytorch to load a data matrix from a text CSV named bank_loans.csv, convert it to float32 tensors, and initialize an SGD optimizer.
+Traceback (most recent call last):
+  File "D:\transformers\main_model.py", line 679, in main
+    result, sources, used_web = rag_pipeline(
+                                ^^^^^^^^^^^^^
+  File "D:\transformers\engine.py", line 849, in rag_pipeline
+    context, cache_hit, sources = retrieve_context(query, k=retrieval_k)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\transformers\engine.py", line 528, in retrieve_context
+    scores = reranker.predict(pairs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\transformers\.venv\Lib\site-packages\sentence_transformers\cross_encoder\CrossEncoder.py", line 310, in predict
+    if isinstance(sentences[0], str):  # Cast an individual sentence to a list with length 1
+                  ~~~~~~~~~^^^
+IndexError: list index out of range
+2026-05-27 19:36:20,147 [INFO] USER    : Explain the breakdown of a ResNet-50 Bottleneck building block including its 1x1 and 3x3 channel configuration steps.
+2026-05-27 19:36:20,147 [INFO] ATHENA  : 
+Step 1: Convolutional Layer
+The first step is to perform a convolution operation on the input image. This operation is performed by a convolutional layer, which is a type of layer that performs convolutions on the input image. In this case, the convolutional layer is a 1x1 convolution, which means it applies a 1x1 kernel to the input image.
+
+Step 2: Max Pooling Layer
+After the convolutional layer, we perform a max pooling operation. This operation is used to reduce the size of the input image while keeping the important features. The max pooling operation is performed by a max pooling layer, 
+2026-05-27 19:36:20,147 [INFO] SOURCES : ['https://medium.com/@enricdomingo/intro-to-pytorch-create-and-train-a-basic-neural-network-with-free-gpu-cd9cfc673cbd', 'https://www.codecademy.com/article/building-a-neural-network-using-pytorch', 'https://medium.com/@sahin.samia/mastering-the-basics-of-torch-nn-a-comprehensive-guide-to-pytorchs-neural-network-module-9f2d704e8c7f'] | WEB: False
+2026-05-27 19:36:20,147 [INFO] ------------------------------------------------------------

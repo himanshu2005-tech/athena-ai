@@ -1,0 +1,17 @@
+2026-05-27 19:46:40,220 [INFO] USER    : Explain the difference between a list and a tuple in Python.
+2026-05-27 19:46:40,223 [INFO] ATHENA  : 
+A list is a data structure that stores items of different types. It can contain strings, numbers, booleans, dictionaries, and lists itself. A tuple is a container for only one value at a time. It cannot store any other values besides its single item. Here's an example to explain each concept:
+
+List:
+```python
+my_list = [1, "hello", True] # my_list[0], my_list[1], my_list[2] will return '1', 'hello', True respectively.
+```
+
+Tuple:
+```python
+my_tuple = ("a","b","c") # my_tuple[0], my_tuple[1], my_tuple[2] will return "a" , "b" , "c" respectively.
+```
+
+In short, a list is a sequence of elements 
+2026-05-27 19:46:40,231 [INFO] SOURCES : [] | WEB: True
+2026-05-27 19:46:40,231 [INFO] ------------------------------------------------------------

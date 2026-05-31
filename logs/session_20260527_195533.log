@@ -1,0 +1,28 @@
+2026-05-27 19:56:08,705 [INFO] USER    : Write a Python function that checks if a given integer is a prime number using the trial division method optimized up to the square root of the number. Return a boolean.
+2026-05-27 19:56:08,705 [INFO] ATHENA  : 
+
+def is_prime(num): 
+   # Check for 2 
+   if num == 2: return True 
+ 
+   # Check divisibility by 2 and 3 
+   for i in range(3, int(num**0.5) + 1, 2): 
+       if num % i == 0: return False 
+ 
+   # Check divisibility by 4 
+   for i in range(4, int(num**0.5) + 1, 4): 
+       if num % i == 0: return False 
+ 
+   # Check divisibility by 6 
+   for i in range(6, int(num**0.5) + 1, 6): 
+       if num % i == 0: return False 
+ 
+   # If no divisors remain, the number is prime 
+   return True 
+ 
+# Example usage 
+print(is_prime(9)) # Outputs True 
+print(is_prime(12)) # Outputs True 
+print(is_prime(18)) # O
+2026-05-27 19:56:08,717 [INFO] SOURCES : [] | WEB: True
+2026-05-27 19:56:08,718 [INFO] ------------------------------------------------------------
